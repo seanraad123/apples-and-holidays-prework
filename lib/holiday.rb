@@ -125,7 +125,7 @@ def all_holidays_with_bbq(holiday_hash)
       new_array.push(holiday_hash[name].keys)
     end
   end
-  print new_array.flatten(1)
+  return new_array.flatten(1)
 end
 
 all_holidays_with_bbq(holiday_supplies)
